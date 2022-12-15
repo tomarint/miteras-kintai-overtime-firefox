@@ -1,17 +1,7 @@
 {
-  "manifest_version": 3,
+  "manifest_version": 2,
   "name": "__MSG_extName__",
   "version": "1.0.0",
-  "action": {
-    "default_icon": {
-      "16": "images/icon16.png",
-      "24": "images/icon24.png",
-      "32": "images/icon32.png",
-      "48": "images/icon48.png",
-      "128": "images/icon128.png"
-    },
-    "default_title": "__MSG_extName__"
-  },
   "default_locale": "en",
   "description": "__MSG_extDescription__",
   "icons": {
@@ -26,5 +16,10 @@
       "matches": ["https://kintai.miteras.jp/*/work-condition"],
       "js": ["foreground.js"]
     }
-  ]
+  ],
+  "applications": {
+    "gecko": {
+      "id": "{62ba48ef-d8eb-48ee-a632-093fdd928cb4}"
+    }
+  }
 }

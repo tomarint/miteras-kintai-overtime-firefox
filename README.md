@@ -1,14 +1,14 @@
 # 🚀 MiTERAS勤怠残業時間
 
-これは、MiTERAS勤怠の累積残業時間を表示するChrome拡張機能です。
+これは、MiTERAS勤怠の累積残業時間を表示するFirefox拡張機能です。
 
 ![Screenshot](./screenshots/login.png)
 
 ## インストール方法
 
-Chromeウェブストアからインストールできます。
+Firefox公式サイトからインストールできます。
 
-<https://chrome.google.com/webstore/detail/miteras-kintai-helper/mjhjomlbbamhklalmdldbpkagijidlkc>
+<https://addons.mozilla.org/ja/firefox/addon/miteras-kintai-overtime/>
 
 ## 使用方法
 
