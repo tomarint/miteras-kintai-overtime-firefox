@@ -1,0 +1,10 @@
+{
+  "extName": {
+    "message": "MiTERAS KINTAI Overtime",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "This extension shows accumulated overtime hours in MiTERAS KINTAI.",
+    "description": "Extension description"
+  }
+}

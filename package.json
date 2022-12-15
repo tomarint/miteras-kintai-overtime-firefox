@@ -1,0 +1,28 @@
+{
+  "name": "miteras-kintai-overtime",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:tomarint/miteras-kintai-overtime.git",
+  "author": "tomarin <tomarint@gmail.com>",
+  "license": "MIT",
+  "description": "This is a chrome extension that shows accumulated overtime hours in MiTERAS KINTAI.",
+  "scripts": {
+    "build": "webpack --mode=production --node-env=production",
+    "build:dev": "webpack --mode=development",
+    "build:prod": "webpack --mode=production --node-env=production",
+    "watch": "webpack --watch",
+    "clean": "rm -rf ./dist/ && mkdir ./dist"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.203",
+    "@webpack-cli/generators": "^3.0.1",
+    "copy-webpack-plugin": "^11.0.0",
+    "css-minimizer-webpack-plugin": "^4.2.2",
+    "html-minimizer-webpack-plugin": "^4.3.0",
+    "terser-webpack-plugin": "^5.3.6",
+    "ts-loader": "^9.4.2",
+    "typescript": "^4.9.3",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  }
+}

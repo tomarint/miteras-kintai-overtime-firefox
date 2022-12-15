@@ -1,0 +1,10 @@
+{
+  "extName": {
+    "message": "MiTERAS勤怠残業時間",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "MiTERAS勤怠で累積残業時間を表示します。",
+    "description": "Extension description"
+  }
+}
