@@ -142,6 +142,10 @@
       else {
         if (worktype === "所定休日出勤") {
           overtime_min = worktime_min;
+        } else if (worktype === "午前半休(AM：年次有給休暇)") {
+          overtime_min = worktime_min - 4 * 60;
+        } else if (worktype === "午後半休(PM：年次有給休暇)") {
+          overtime_min = worktime_min - 4 * 60;
         } else {
           overtime_min = worktime_min - 8 * 60;
         }
