@@ -17,7 +17,7 @@
       "js": ["foreground.js"]
     }
   ],
-  "applications": {
+  "browser_specific_settings": {
     "gecko": {
       "id": "{62ba48ef-d8eb-48ee-a632-093fdd928cb4}"
     }
