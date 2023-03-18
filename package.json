@@ -1,6 +1,6 @@
 {
   "name": "miteras-kintai-overtime-firefox",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "index.js",
   "repository": "git@github.com:tomarint/miteras-kintai-overtime-firefox.git",
   "author": "tomarin <tomarint@gmail.com>",
